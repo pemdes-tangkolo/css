@@ -48,8 +48,8 @@ sup {
   position: relative;
   width: 100%;
   min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .col {
@@ -480,4 +480,76 @@ sup {
   background-image: -moz-linear-gradient(45deg, #9e051b 0%, #f30b2b 100%) !important;
   background-image: -webkit-linear-gradient(45deg, #9e051b 0%, #f30b2b 100%) !important;
   background-image: -ms-linear-gradient(45deg, #9e051b 0%, #c513c9 100%) !important;
+}
+.small-box {
+border-radius: 1rem;
+position: relative;
+display: block;
+margin: 10px 0;
+box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+.small-box > .inner {
+padding: 10px;
+}
+.small-box > .small-box-footer {
+position: relative;
+text-align: center;
+padding: 3px 0;
+color: #fff;
+color: rgba(255, 255, 255, 0.8);
+display: block;
+z-index: 10;
+background: rgba(0, 0, 0, 0.1);
+text-decoration: none;
+}
+.small-box > .small-box-footer:hover {
+color: #fff;
+background: rgba(0, 0, 0, 0.15);
+}
+.small-box h3 {
+font-size: 28px;
+font-weight: bold;
+margin: 0 0 10px 0;
+white-space: nowrap;
+padding: 0;
+}
+.small-box p {
+font-size: 15px;
+}
+.small-box p > small {
+display: block;
+color: #6f00ff;
+font-size: 13px;
+margin-top: 5px;
+}
+.small-box h3, .small-box p {
+z-index: 5;
+}
+.small-box .icon {
+-webkit-transition: all 0.3s linear;
+-o-transition: all 0.3s linear;
+transition: all 0.3s linear;
+position: absolute;
+top: 10px;
+right: 10px;
+z-index: 0;
+font-size: 70px;
+color: rgba(0, 0, 0, 0.15);
+}
+.small-box:hover {
+text-decoration: none;
+color: #6f00ff;
+}
+.small-box:hover .icon {
+font-size: 75px;
+}
+@media (max-width: 767px) {
+.small-box {
+text-align: center;
+}
+.small-box .icon {
+display: none;
+}
+.small-box p {
+font-size: 12px;
 }
