@@ -2,6 +2,7 @@
 .card-body {
   flex: 1 1 auto;
   padding: 1.25rem;
+  font-family: 'Roboto', sans-serif;
 }
 .row {
   display: flex;
