@@ -4,7 +4,7 @@
   padding: 1.25rem;
   font-family: 'Roboto', sans-serif;
 }
-.row {
+.row-flex {
   display: flex;
   flex-wrap: wrap;
   margin-right: -15px;
