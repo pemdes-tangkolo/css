@@ -1,0 +1,395 @@
+/* card body */
+.card-body {
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col,
+.col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm,
+.col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md,
+.col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg,
+.col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl,
+.col-xl-auto {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.col {
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+}
+
+.col-auto {
+  flex: 0 0 auto;
+  width: auto;
+  max-width: none;
+}
+
+.col-1 {
+  flex: 0 0 8.33333%;
+  max-width: 8.33333%;
+}
+
+.col-2 {
+  flex: 0 0 16.66667%;
+  max-width: 16.66667%;
+}
+
+.col-3 {
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+
+.col-4 {
+  flex: 0 0 33.33333%;
+  max-width: 33.33333%;
+}
+
+.col-5 {
+  flex: 0 0 41.66667%;
+  max-width: 41.66667%;
+}
+
+.col-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.col-7 {
+  flex: 0 0 58.33333%;
+  max-width: 58.33333%;
+}
+
+.col-8 {
+  flex: 0 0 66.66667%;
+  max-width: 66.66667%;
+}
+
+.col-9 {
+  flex: 0 0 75%;
+  max-width: 75%;
+}
+
+.col-10 {
+  flex: 0 0 83.33333%;
+  max-width: 83.33333%;
+}
+
+.col-11 {
+  flex: 0 0 91.66667%;
+  max-width: 91.66667%;
+}
+
+.col-12 {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+/* primary gradient */
+.primary-gradient,
+.primary-gradient-active.active,
+.primary-gradient-active.router-link-active,
+.primary-gradient-active.active:hover,
+.primary-gradient-active:active {
+  color: #ffffff !important;
+  background-image: -moz-linear-gradient(45deg, #4a19c8 0%, #7979ff 100%) !important;
+  background-image: -webkit-linear-gradient(45deg, #4a19c8 0%, #7979ff 100%) !important;
+  background-image: -ms-linear-gradient(45deg, #4a19c8 0%, #7979ff 100%) !important;
+  border-color: transparent;
+  background-color: #4a19c8 !important;
+}
+
+.primary-gradient h5,
+.primary-gradient .header-color-primary,
+.primary-gradient-active.active h5,
+.primary-gradient-active.active .header-color-primary,
+.primary-gradient-active.router-link-active h5,
+.primary-gradient-active.router-link-active .header-color-primary,
+.primary-gradient-active.active:hover h5,
+.primary-gradient-active.active:hover .header-color-primary,
+.primary-gradient-active:active h5,
+.primary-gradient-active:active .header-color-primary {
+  color: #ffffff;
+}
+
+.primary-gradient p,
+.primary-gradient .header-color-secondary,
+.primary-gradient-active.active p,
+.primary-gradient-active.active .header-color-secondary,
+.primary-gradient-active.router-link-active p,
+.primary-gradient-active.router-link-active .header-color-secondary,
+.primary-gradient-active.active:hover p,
+.primary-gradient-active.active:hover .header-color-secondary,
+.primary-gradient-active:active p,
+.primary-gradient-active:active .header-color-secondary {
+  color: #ffffff;
+  opacity: 0.7;
+}
+
+.primary-gradient.media h5,
+.primary-gradient.media small,
+.primary-gradient-active.active.media h5,
+.primary-gradient-active.active.media small,
+.primary-gradient-active.router-link-active.media h5,
+.primary-gradient-active.router-link-active.media small,
+.primary-gradient-active.active:hover.media h5,
+.primary-gradient-active.active:hover.media small,
+.primary-gradient-active:active.media h5,
+.primary-gradient-active:active.media small {
+  color: #ffffff;
+}
+
+.primary-gradient.media p,
+.primary-gradient.media .text-muted,
+.primary-gradient-active.active.media p,
+.primary-gradient-active.active.media .text-muted,
+.primary-gradient-active.router-link-active.media p,
+.primary-gradient-active.router-link-active.media .text-muted,
+.primary-gradient-active.active:hover.media p,
+.primary-gradient-active.active:hover.media .text-muted,
+.primary-gradient-active:active.media p,
+.primary-gradient-active:active.media .text-muted {
+  color: #ffffff !important;
+  opacity: 0.7;
+}
+
+.btn.primary-gradient:hover {
+  color: #ffffff !important;
+  background-image: -moz-linear-gradient(45deg, #39139b 0%, #4646ff 100%) !important;
+  background-image: -webkit-linear-gradient(45deg, #39139b 0%, #4646ff 100%) !important;
+  background-image: -ms-linear-gradient(45deg, #39139b 0%, #4646ff 100%) !important;
+}
+/* success gradient */
+.success-gradient,
+.success-gradient-active.active,
+.success-gradient-active.router-link-active,
+.success-gradient-active.active:hover,
+.success-gradient-active:active {
+  color: #ffffff !important;
+  background-image: -moz-linear-gradient(45deg, #07ba7d 0%, #0fd793 100%) !important;
+  background-image: -webkit-linear-gradient(45deg, #07ba7d 0%, #0fd793 100%) !important;
+  background-image: -ms-linear-gradient(45deg, #07ba7d 0%, #0fd793 100%) !important;
+  border-color: transparent;
+  background-color: #07ba7d !important;
+}
+
+.success-gradient h5,
+.success-gradient .header-color-success,
+.success-gradient-active.active h5,
+.success-gradient-active.active .header-color-success,
+.success-gradient-active.router-link-active h5,
+.success-gradient-active.router-link-active .header-color-success,
+.success-gradient-active.active:hover h5,
+.success-gradient-active.active:hover .header-color-success,
+.success-gradient-active:active h5,
+.success-gradient-active:active .header-color-success {
+  color: #ffffff;
+}
+
+.success-gradient p,
+.success-gradient .header-color-secondary,
+.success-gradient-active.active p,
+.success-gradient-active.active .header-color-secondary,
+.success-gradient-active.router-link-active p,
+.success-gradient-active.router-link-active .header-color-secondary,
+.success-gradient-active.active:hover p,
+.success-gradient-active.active:hover .header-color-secondary,
+.success-gradient-active:active p,
+.success-gradient-active:active .header-color-secondary {
+  color: #ffffff;
+  opacity: 0.7;
+}
+
+.success-gradient.media h5,
+.success-gradient.media small,
+.success-gradient-active.active.media h5,
+.success-gradient-active.active.media small,
+.success-gradient-active.router-link-active.media h5,
+.success-gradient-active.router-link-active.media small,
+.success-gradient-active.active:hover.media h5,
+.success-gradient-active.active:hover.media small,
+.success-gradient-active:active.media h5,
+.success-gradient-active:active.media small {
+  color: #ffffff;
+}
+
+.success-gradient.media p,
+.success-gradient.media .text-muted,
+.success-gradient-active.active.media p,
+.success-gradient-active.active.media .text-muted,
+.success-gradient-active.router-link-active.media p,
+.success-gradient-active.router-link-active.media .text-muted,
+.success-gradient-active.active:hover.media p,
+.success-gradient-active.active:hover.media .text-muted,
+.success-gradient-active:active.media p,
+.success-gradient-active:active.media .text-muted {
+  color: #ffffff !important;
+  opacity: 0.7;
+}
+
+.btn.success-gradient:hover {
+  color: #ffffff !important;
+  background-image: -moz-linear-gradient(45deg, #05895c 0%, #0ca772 100%) !important;
+  background-image: -webkit-linear-gradient(45deg, #05895c 0%, #0ca772 100%) !important;
+  background-image: -ms-linear-gradient(45deg, #05895c 0%, #0ca772 100%) !important;
+}
+
+/* warning gradient */
+.warning-gradient,
+.warning-gradient-active.active,
+.warning-gradient-active.router-link-active,
+.warning-gradient-active.active:hover,
+.warning-gradient-active:active {
+  color: #ffffff !important;
+  background-image: -moz-linear-gradient(45deg, #ff7800 0%, #f5a811 100%) !important;
+  background-image: -webkit-linear-gradient(45deg, #ff7800 0%, #f5a811 100%) !important;
+  background-image: -ms-linear-gradient(45deg, #ff7800 0%, #f5a811 100%) !important;
+  border-color: transparent;
+  background-color: #ff7800 !important;
+}
+
+.warning-gradient h5,
+.warning-gradient .header-color-primary,
+.warning-gradient-active.active h5,
+.warning-gradient-active.active .header-color-primary,
+.warning-gradient-active.router-link-active h5,
+.warning-gradient-active.router-link-active .header-color-primary,
+.warning-gradient-active.active:hover h5,
+.warning-gradient-active.active:hover .header-color-primary,
+.warning-gradient-active:active h5,
+.warning-gradient-active:active .header-color-primary {
+  color: #ffffff;
+}
+
+.warning-gradient p,
+.warning-gradient .header-color-secondary,
+.warning-gradient-active.active p,
+.warning-gradient-active.active .header-color-secondary,
+.warning-gradient-active.router-link-active p,
+.warning-gradient-active.router-link-active .header-color-secondary,
+.warning-gradient-active.active:hover p,
+.warning-gradient-active.active:hover .header-color-secondary,
+.warning-gradient-active:active p,
+.warning-gradient-active:active .header-color-secondary {
+  color: #ffffff;
+  opacity: 0.7;
+}
+
+.warning-gradient.media h5,
+.warning-gradient.media small,
+.warning-gradient-active.active.media h5,
+.warning-gradient-active.active.media small,
+.warning-gradient-active.router-link-active.media h5,
+.warning-gradient-active.router-link-active.media small,
+.warning-gradient-active.active:hover.media h5,
+.warning-gradient-active.active:hover.media small,
+.warning-gradient-active:active.media h5,
+.warning-gradient-active:active.media small {
+  color: #ffffff;
+}
+
+.warning-gradient.media p,
+.warning-gradient.media .text-muted,
+.warning-gradient-active.active.media p,
+.warning-gradient-active.active.media .text-muted,
+.warning-gradient-active.router-link-active.media p,
+.warning-gradient-active.router-link-active.media .text-muted,
+.warning-gradient-active.active:hover.media p,
+.warning-gradient-active.active:hover.media .text-muted,
+.warning-gradient-active:active.media p,
+.warning-gradient-active:active.media .text-muted {
+  color: #ffffff !important;
+  opacity: 0.7;
+}
+
+.btn.warning-gradient:hover {
+  color: #ffffff !important;
+  background-image: -moz-linear-gradient(45deg, #cc6000 0%, #ca8909 100%) !important;
+  background-image: -webkit-linear-gradient(45deg, #cc6000 0%, #ca8909 100%) !important;
+  background-image: -ms-linear-gradient(45deg, #cc6000 0%, #ca8909 100%) !important;
+}
+
+/* danger gradient */
+.danger-gradient,
+.danger-gradient-active.active,
+.danger-gradient-active.router-link-active,
+.danger-gradient-active.active:hover,
+.danger-gradient-active:active {
+  color: #ffffff !important;
+  background-image: -moz-linear-gradient(45deg, #cf0723 0%, #f63b55 100%) !important;
+  background-image: -webkit-linear-gradient(45deg, #cf0723 0%, #f63b55 100%) !important;
+  background-image: -ms-linear-gradient(45deg, #cf0723 0%, #f63b55 100%) !important;
+  border-color: transparent;
+  background-color: #cf0723 !important;
+}
+
+.danger-gradient h5,
+.danger-gradient .header-color-primary,
+.danger-gradient-active.active h5,
+.danger-gradient-active.active .header-color-primary,
+.danger-gradient-active.router-link-active h5,
+.danger-gradient-active.router-link-active .header-color-primary,
+.danger-gradient-active.active:hover h5,
+.danger-gradient-active.active:hover .header-color-primary,
+.danger-gradient-active:active h5,
+.danger-gradient-active:active .header-color-primary {
+  color: #ffffff;
+}
+
+.danger-gradient p,
+.danger-gradient .header-color-secondary,
+.danger-gradient-active.active p,
+.danger-gradient-active.active .header-color-secondary,
+.danger-gradient-active.router-link-active p,
+.danger-gradient-active.router-link-active .header-color-secondary,
+.danger-gradient-active.active:hover p,
+.danger-gradient-active.active:hover .header-color-secondary,
+.danger-gradient-active:active p,
+.danger-gradient-active:active .header-color-secondary {
+  color: #ffffff;
+  opacity: 0.7;
+}
+
+.danger-gradient.media h5,
+.danger-gradient.media small,
+.danger-gradient-active.active.media h5,
+.danger-gradient-active.active.media small,
+.danger-gradient-active.router-link-active.media h5,
+.danger-gradient-active.router-link-active.media small,
+.danger-gradient-active.active:hover.media h5,
+.danger-gradient-active.active:hover.media small,
+.danger-gradient-active:active.media h5,
+.danger-gradient-active:active.media small {
+  color: #ffffff;
+}
+
+.danger-gradient.media p,
+.danger-gradient.media .text-muted,
+.danger-gradient-active.active.media p,
+.danger-gradient-active.active.media .text-muted,
+.danger-gradient-active.router-link-active.media p,
+.danger-gradient-active.router-link-active.media .text-muted,
+.danger-gradient-active.active:hover.media p,
+.danger-gradient-active.active:hover.media .text-muted,
+.danger-gradient-active:active.media p,
+.danger-gradient-active:active.media .text-muted {
+  color: #ffffff !important;
+  opacity: 0.7;
+}
+
+.btn.danger-gradient:hover {
+  color: #ffffff !important;
+  background-image: -moz-linear-gradient(45deg, #9e051b 0%, #f30b2b 100%) !important;
+  background-image: -webkit-linear-gradient(45deg, #9e051b 0%, #f30b2b 100%) !important;
+  background-image: -ms-linear-gradient(45deg, #9e051b 0%, #c513c9 100%) !important;
+}
